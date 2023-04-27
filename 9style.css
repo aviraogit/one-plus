@@ -319,6 +319,7 @@ nav img{
     /* background-image: url(./card1.png); */
     width: 280px;
     height: 400px;
+    margin-top: 50px;
 
 }
 .card1 img{
@@ -429,15 +430,19 @@ nav img{
     /* width: 30%; */
 }
 .text2 h1{
-    font-size: 50px;
+    /* height: 80; */
+    font-size: 40px;
+    margin-top: 30px;
     margin-bottom: 250px;
     color: white;
 }
 .text2 p{
+
     color: white;
 }
-.text a{
-    padding: 10px;
+.text2 a{
+    color: gray;
+    /* padding: 10px; */
 }
 .coin-image img{
     width: 500px;
@@ -449,6 +454,8 @@ nav img{
     /* width: 400px; */
     /* height: 300px; */
     /* background-image: url(./pc.jpg.thumb.webp); */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .coin-image img:hover{
     transition: 0.5s;
@@ -467,26 +474,46 @@ nav img{
 
 
 .o2{
-    padding: 50px;
+    /* border: 10px solid green; */
+    padding: 100px;
     height: 90vh;
-    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: blue; */
+    background-color: black;
 }
 .b1{
-    /* padding: 10px; */
+    padding: 0px;
     margin: 0px;
     width: 500px;
     height: 385px;
     display: flex;
-    background-color: brown;
+    background-color: rgb(48, 47, 47);
+    flex-direction: row;
     /* justify-content: space-between; */
     /* align-items: center; */
 }
+.b1 a{
+    color: gray;
+
+}
+.b1-image img:hover{
+    transition: 0.5s;
+}
 .b1-text{
+    color: white;
     width: 200px;
-    /* display: flex; */
+    display: flex;
     padding: 10px;
-    /* flex-direction: row; */
-    margin: 0px;
+    flex-direction: column;
+    
+    
+}
+.b1-text h1{
+    margin-bottom: 80px;
 }
 .b1-image img{
     border: 2px soild red;
@@ -609,4 +636,49 @@ nav img{
     height: 200px;
 }
 
-}    
+} 
+.end-container{
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+}   
+.end-container span{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px;
+}
+.phone ol{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.end-oneplus ol{
+    display: flex;
+    width: 900px;
+    font-size: smaller;
+    margin-left: 50px;
+    list-style: none;
+    justify-content: space-between;
+    padding: 50px;
+
+
+}
+
+.downbar{
+    width: 400px;
+    font-size: 40px;
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.end-container h4{
+    color: gray;
+}
+.end-oneplus{
+    color: gray;
+}
